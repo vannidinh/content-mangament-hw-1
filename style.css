@@ -25,6 +25,67 @@ nav li{
   margin-right:10px;
   display: inline-block;
 }
+
+.learnmorebutton{
+  width: 145px;
+  height: 35px;
+  background-color: black;
+  position: relative;
+  left: 545px;
+  top: 75px;
+}
+
+.boxinfo{
+  width: 100%;
+  height: 725px;
+  background-color:lightgray;
+  position: absolute;
+  top: 1095px;
+  left: 1px;
+}
+
+.head{
+  color: black;
+  position: absolute;
+  top: 12px;
+  left: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+
+.par1{
+  width: 700px;
+  color: black;
+  position: relative;
+  top: 40px;
+  left: 20px;
+  font-weight: normal;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+.par2{
+  width: 700px;
+  color: black;
+  position: relative;
+  top: 60px;
+  left: 20px;
+  font-weight: normal;
+  font-family: sans-serif;
+}
+
+.par3{
+  width: 700px;
+  color: black;
+  position: relative;
+  top: 80px;
+  left: 20px;
+  font-weight: normal;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
 .cir{
   width: 95px;
   height: 65px;
@@ -32,7 +93,7 @@ nav li{
   position: absolute;
   top: 1px;
   padding: 5px 5px 5px;
-  left: 590px;
+  left: 625px;
 }
 
 .phones{
@@ -246,7 +307,7 @@ header{
   font-weight: bold;
   font-family: sans-serif;
   position: absolute;
-  left: 205px;
+  left: 580px;
   top: 495px;
   margin-right: 10px;
 }
@@ -362,13 +423,13 @@ header{
 }
 
 .body4{
-  color: white;
-  position: absolute;
+  color: black;
+  position: relative;
   font-weight: normal;
   font-family: sans-serif;
   font-size: 15px;
-  top: 1130px;
-  left: 75px;
+  bottom: 345px;
+  right: 725px;
 }
 
 .pics{
@@ -380,38 +441,45 @@ header{
   top: 700px;
 }
 
-.roundedbutton{
-  border-radius: 5px 5px 5px 5px;
-  background: black;
-  padding: 5px;
-  width: 125px;
-  height: 25px;
-  position: relative;
-  left: 600px;
-  top: 100px;
-}
-
 .learn{
   color: white;
   position: absolute;
-  top: 1050px;
+  top: 1025px;
   font-weight: bold;
   font-family: sans-serif;
   font-size: 15px;
-  left: 635px;
+  left: 585px;
 }
 
 .box10{
-  width: 101%;
-  height: 230px;
+  width: 280%;
+  height: 345px;
   background-color: grey;
   position: relative;
-  top: 110px;
+  top: 10px;
   padding: 5px 5px 5px;
-  right: 10px;
+  right: 900px;
 }
 
 .paragraph9{
+  color: white;
+  position: relative;
+  bottom: 340px;
+  font-size: 20px;
+  right: 725px;
+  font-weight: bold;
+}
+
+.box20{
+  width: 101%;
+  height: 2px;
+  background-color: blue;
+  position: absolute;
+  padding: 1px 1px 1px;
+  right: 800px;
+  top: 1115px;
+}
+.paragraph20{
   color: white;
   position: absolute;
   top: 1115px;
@@ -421,190 +489,137 @@ header{
   font-size: 20px;
 }
 
-.input1{
-  width: 120px;
-  height: 20px;
-  background-color: white;
-  position: relative;
-  top: 65px;
-  border-color: white;
-  left: 65px;
-  border-style: solid;
-}
-
-.input2{
-  width: 120px;
-  height: 20px;
-  background-color: white;
-  position: relative;
-  top: 40px;
-  border-color: white;
-  left: 215px;
-  border-style: solid;
-}
-
-.roundedbutton2{
-  border-radius: 5px 5px 5px 5px;
-  background: black;
-  padding: 5px;
-  width: 125px;
-  height: 20px;
-  position: relative;
-  left: 365px;
-  top: 10px;
-}
-
-.headies{
-  color: white;
-  position: absolute;
-  top: 1285px;
-  font-weight: bold;
-  font-family: sans-serif;
-  font-size: 15px;
-  left: 415px;
-}
-
 .linkes{
   color: white;
   position: absolute;
-  top: 1100px;
+  top: 735px;
   font-weight: bold;
   font-family: sans-serif;
   font-size: 15px;
-  left: 765px;
   text-decoration: underline;
+  left: 1px;
 }
 
 .homes{
   color: white;
   position: absolute;
-  top: 1125px;
+  top: 765px;
   font-weight: bold;
   font-family: sans-serif;
-  font-size: 10px;
-  left: 765px;
+  font-size: 15px;
+  left: 1px;
 }
 
 .contacts{
   color: white;
   position: absolute;
-  top: 1150px;
+  top: 790px;
   font-weight: bold;
   font-family: sans-serif;
-  font-size: 10px;
-  left: 765px;
+  font-size: 15px;
+  left: 1px;
 }
 
 .beverage{
   color: white;
   position: absolute;
-  top: 1175px;
+  top: 815px;
   font-weight: bold;
   font-family: sans-serif;
-  font-size: 10px;
-  left: 765px;
+  font-size: 15px;
+  left: 1px;
 }
 
 .special{
   color: white;
   position: absolute;
-  top: 1200px;
+  top: 840px;
   font-weight: bold;
   font-family: sans-serif;
-  font-size: 10px;
-  left: 765px;
+  font-size: 15px;
+  left: 1px;
 }
 
 .finds{
   color: white;
   position: absolute;
-  top: 1250px;
+  top: 865px;
   font-weight: bold;
   font-family: sans-serif;
-  font-size: 10px;
-  left: 765px;
+  font-size: 15px;
+  left: 1px;
 }
 
 .about{
   color: white;
   position: absolute;
-  top: 1225px;
+  top: 890px;
   font-weight: bold;
   font-family: sans-serif;
-  font-size: 10px;
-  left: 765px;
+  font-size: 15px;
+  left: 1px;
 }
 
 .supports{
   color: white;
   position: absolute;
-  top:  1100px;
+  top: 1845px;
   font-weight: bold;
   font-family: sans-serif;
   font-size: 15px;
-  left: 865px;
   text-decoration: underline;
+  left: 895px;
 }
 
 .brewarle{
   color: white;
   position: absolute;
-  top: 1125px;
+  top: 1870px;
   font-weight: bold;
   font-family: sans-serif;
-  font-size: 10px;
-  left: 865px;
+  font-size: 15px;
+  left: 895px;
 }
 
 .affilate{
   color: white;
   position: absolute;
-  top: 1150px;
+  top: 1895px;
   font-weight: bold;
   font-family: sans-serif;
-  font-size: 10px;
-  left: 865px;
+  font-size: 15px;
+  left: 895px;
 }
 
 .request{
   color: white;
   position: absolute;
-  top: 1175px;
+  top: 1925px;
   font-weight: bold;
   font-family: sans-serif;
-  font-size: 10px;
-  left: 865px;
+  font-size: 15px;
+  left: 895px;
 }
 
 .reward{
   color: white;
   position: absolute;
-  top: 1200px;
+  top: 1950px;
   font-weight: bold;
   font-family: sans-serif;
-  font-size: 10px;
-  left: 865px;
+  font-size: 15px;
+  left: 895px;
 }
 
 .connects{
   color: white;
   position: absolute;
-  top: 1100px;
+  top: 1845px;
   font-weight: bold;
   font-family: sans-serif;
   font-size: 15px;
-  left: 1035px;
   text-decoration: underline;
-}
-
-.box11{
-  width: 15px;
-  height: 10px;
-  background-color: white;
-  position: absolute;
-  top: 1125px;
-  padding: 5px 5px 5px;
-  left: 1045px;
+  left: 1095px;
 }
 
 .fb{
@@ -612,19 +627,9 @@ header{
   height: 20px;
   background-color: green;
   position: absolute;
-  top: 1120px;
+  top: 1865px;
   padding: 5px 5px 5px;
-  left: 1040px;
-}
-
-.box0{
-  width: 15px;
-  height: 10px;
-  background-color: white;
-  position: absolute;
-  top: 1121px;
-  padding: 5px 5px 5px;
-  left: 1075px;
+  left: 1095px;
 }
 
 .twit{
@@ -632,19 +637,9 @@ header{
   height: 20px;
   background-color: green;
   position: absolute;
-  top: 1121px;
+  top: 1865px;
   padding: 5px 5px 5px;
-  left: 1075px;
-}
-
-.box13{
-  width: 15px;
-  height: 10px;
-  background-color: white;
-  position: absolute;
-  top: 1122px;
-  padding: 5px 5px 5px;
-  left: 1111px;
+  left: 1130px;
 }
 
 .in{
@@ -652,19 +647,9 @@ header{
   height: 20px;
   background-color: green;
   position: absolute;
-  top: 1122px;
+  top: 1865px;
   padding: 5px 5px 5px;
-  left: 1111px;
-}
-
-.box14{
-  width: 15px;
-  height: 10px;
-  background-color: white;
-  position: absolute;
-  top: 1123px;
-  padding: 5px 5px 5px;
-  left: 1145px;
+  left: 1165px;
 }
 
 .you{
@@ -672,19 +657,9 @@ header{
   height: 20px;
   background-color: green;
   position: absolute;
-  top: 1123px;
+  top: 1865px;
   padding: 5px 5px 5px;
-  left: 1145px;
-}
-
-.box15{
-  width: 15px;
-  height: 10px;
-  background-color: white;
-  position: absolute;
-  top: 1123px;
-  padding: 5px 5px 5px;
-  left: 1185px;
+  left: 1200px;
 }
 
 .pin{
@@ -692,39 +667,9 @@ header{
   height: 20px;
   background-color: green;
   position: absolute;
-  top: 1123px;
+  top: 1900px;
   padding: 5px 5px 5px;
-  left: 1145px;
-}
-
-.box15{
-  width: 15px;
-  height: 10px;
-  background-color: white;
-  position: absolute;
-  top: 1123px;
-  padding: 5px 5px 5px;
-  left: 1180px;
-}
-
-.pin{
-  width: 20px;
-  height: 20px;
-  background-color: green;
-  position: absolute;
-  top: 1123px;
-  padding: 5px 5px 5px;
-  left: 1180px;
-}
-
-.box16{
-  width: 15px;
-  height: 10px;
-  background-color: white;
-  position: absolute;
-  top: 1123px;
-  padding: 5px 5px 5px;
-  left: 1215px;
+  left: 1095px;
 }
 
 .instagram{
@@ -732,9 +677,22 @@ header{
   height: 20px;
   background-color: green;
   position: absolute;
-  top: 1123px;
+  top: 1900px;
   padding: 5px 5px 5px;
-  left: 1215px;
+  left: 1130px;
+}
+
+form{
+  position: relative;
+  bottom: 345px;
+  right: 725px;
+}
+
+button{
+  width: 130px;
+  position: absolute;
+  top: 95px;
+  font-size: 20px;
 }
 
 .box12{
@@ -742,7 +700,7 @@ header{
   height: 165px;
   background-color: black;
   position: absolute;
-  top: 1328px;
+  top: 2165px;
   padding: 5px 5px 5px;
   left: 0px;
 }
@@ -752,7 +710,7 @@ header{
   height: 65px;
   background-color: black;
   position: absolute;
-  top: 1340px;
+  top: 2165px;
   padding: 5px 5px 5px;
   left: 595px;
 }
@@ -760,7 +718,7 @@ header{
 .privacy{
   color: white;
   position: absolute;
-  top: 1415px;
+  top: 2240px;
   font-weight: bold;
   font-family: sans-serif;
   font-size: 10px;
@@ -770,7 +728,7 @@ header{
 .website{
   color: white;
   position: absolute;
-  top: 1445px;
+  top: 2265px;
   font-weight: bold;
   font-family: sans-serif;
   font-size: 10px;
@@ -786,512 +744,484 @@ header{
     position: absolute;
     top: 1px;
     left: 1px;
-}
-
-@media all and (max-width:1000px){
-  nav ul li a{
-    width: 100%;
-    margin-bottom: 10px;
-    margin: 25px;
-    font-size: 12px;
-    top: 1px;
   }
 
   @media all and (max-width:1000px){
-    .cir{
-      width: 20px;
-      height: 20px;
-      background-color: black;
-      position: absolute;
-      top: 35px;
-      left: 245px;
+    nav ul li a{
+      width: 100%;
+      margin-bottom: 10px;
+      margin: 25px;
+      font-size: 12px;
+      top: 1px;
     }
 
     @media all and (max-width:1000px){
-      .phones{
-        width: 25px;
-        height: 25px;
+      .cir{
+        width: 20px;
+        height: 20px;
+        background-color: black;
         position: absolute;
         top: 35px;
-        left: 20px;
+        left: 245px;
       }
 
       @media all and (max-width:1000px){
-        .glass{
+        .phones{
           width: 25px;
           height: 25px;
           position: absolute;
           top: 35px;
-          left: 465px;
+          left: 20px;
         }
 
         @media all and (max-width:1000px){
-          img{
-            width: 103%;
-            height: 300px;
-            position: relative;
-            top: 33px;
-            right: 8px;
+          .glass{
+            width: 25px;
+            height: 25px;
+            position: absolute;
+            top: 35px;
+            left: 465px;
           }
-          @media all and (max-width:1000px){
-            header{
-              color: white;
-              position: absolute;
-              top: 345px;
-              left: 145px;
-              font-weight: bold;
-              font-family: sans-serif;
-              font-size: 25px;
-              text-align: center;
-            }
 
+          @media all and (max-width:1000px){
+            img{
+              width: 103%;
+              height: 300px;
+              position: relative;
+              top: 33px;
+              right: 8px;
+            }
             @media all and (max-width:1000px){
-              .box2{
-                width: 125px;
-                height: 75px;
-                background-color: white;
+              header{
+                color: white;
                 position: absolute;
-                padding: 1px 1px 1px;
-                left: 10px;
-                top: 395px;
+                top: 345px;
+                left: 145px;
+                font-weight: bold;
+                font-family: sans-serif;
+                font-size: 25px;
+                text-align: center;
               }
 
               @media all and (max-width:1000px){
-                .price1{
+                .box2{
+                  width: 125px;
+                  height: 75px;
+                  background-color: white;
                   position: absolute;
-                  left: 70px;
-                  top: 400px;
-                  margin-right: 10px;
-                  font-size: 20px;
-                  font-weight: bold;
-                  font-family: sans-serif;
+                  padding: 1px 1px 1px;
+                  left: 10px;
+                  top: 395px;
                 }
 
                 @media all and (max-width:1000px){
-                  .paragraph1{
+                  .price1{
                     position: absolute;
-                    top: 420px;
-                    font-size: 10px;
-                    font-family: sans-serif;
-                    font-weight: 600;
+                    left: 70px;
+                    top: 400px;
                     margin-right: 10px;
-                    right: 440px;
+                    font-size: 20px;
+                    font-weight: bold;
+                    font-family: sans-serif;
                   }
 
                   @media all and (max-width:1000px){
-                    .box3{
-                      width: 125px;
-                      height: 75px;
-                      background-color: white;
+                    .paragraph1{
                       position: absolute;
-                      padding: 1px 1px 1px;
-                      left: 145px;
-                      top: 395px;
+                      top: 420px;
+                      font-size: 10px;
+                      font-family: sans-serif;
+                      font-weight: 600;
+                      margin-right: 10px;
+                      right: 440px;
                     }
-                    @media all and (max-width:1000px){
-                      .price2{
-                        position: absolute;
-                        left: 206px;
-                        top: 400px;
-                        margin-right: 10px;
-                        font-size: 20px;
-                        font-weight: bold;
-                        font-family: sans-serif;
-                      }
 
+                    @media all and (max-width:1000px){
+                      .box3{
+                        width: 125px;
+                        height: 75px;
+                        background-color: white;
+                        position: absolute;
+                        padding: 1px 1px 1px;
+                        left: 145px;
+                        top: 395px;
+                      }
                       @media all and (max-width:1000px){
-                        .paragraph2{
+                        .price2{
                           position: absolute;
-                          top: 420px;
-                          font-size: 10px;
+                          left: 206px;
+                          top: 400px;
+                          margin-right: 10px;
+                          font-size: 20px;
+                          font-weight: bold;
                           font-family: sans-serif;
-                          font-weight: 600;
-                          margin-right: 15px;
-                          right: 300px;
                         }
 
                         @media all and (max-width:1000px){
-                          .box4{
-                            width: 125px;
-                            height: 75px;
-                            background-color: white;
+                          .paragraph2{
                             position: absolute;
-                            padding: 1px 1px 1px;
-                            left:280px;
-                            top: 395px
+                            top: 420px;
+                            font-size: 10px;
+                            font-family: sans-serif;
+                            font-weight: 600;
+                            margin-right: 15px;
+                            right: 300px;
                           }
 
                           @media all and (max-width:1000px){
-                            .price3{
+                            .box4{
+                              width: 125px;
+                              height: 75px;
+                              background-color: white;
                               position: absolute;
-                              left: 340px;
-                              top: 400px;
-                              margin-right: 10px;
-                              font-size: 20px;
-                              font-weight: bold;
-                              font-family: sans-serif;
+                              padding: 1px 1px 1px;
+                              left:280px;
+                              top: 395px
                             }
 
                             @media all and (max-width:1000px){
-                              .paragraph3{
+                              .price3{
                                 position: absolute;
-                                top: 420px;
-                                font-size: 10px;
+                                left: 340px;
+                                top: 400px;
+                                margin-right: 10px;
+                                font-size: 20px;
+                                font-weight: bold;
                                 font-family: sans-serif;
-                                font-weight: 600;
-                                margin-left: 15px;
-                                right: 180px;
                               }
-                              @media all and (max-width:1000px){
-                                .box5{
-                                  width: 125px;
-                                  height: 75px;
-                                  background-color: white;
-                                  position: absolute;
-                                  padding: 1px 1px 1px;
-                                  left: 420px;
-                                  top: 395px;
-                                }
 
+                              @media all and (max-width:1000px){
+                                .paragraph3{
+                                  position: absolute;
+                                  top: 420px;
+                                  font-size: 10px;
+                                  font-family: sans-serif;
+                                  font-weight: 600;
+                                  margin-left: 15px;
+                                  right: 180px;
+                                }
                                 @media all and (max-width:1000px){
-                                  .price4{
+                                  .box5{
+                                    width: 125px;
+                                    height: 75px;
+                                    background-color: white;
                                     position: absolute;
-                                    left: 480px;
-                                    top: 400px;
-                                    margin-right: 10px;
-                                    font-size: 20px;
-                                    font-weight: bold;
-                                    font-family: sans-serif;
+                                    padding: 1px 1px 1px;
+                                    left: 420px;
+                                    top: 395px;
                                   }
 
                                   @media all and (max-width:1000px){
-                                    .paragraph4{
+                                    .price4{
                                       position: absolute;
-                                      left: 410px;
-                                      top: 410px;
-                                      font-size: 10px;
+                                      left: 480px;
+                                      top: 400px;
+                                      margin-right: 10px;
+                                      font-size: 20px;
+                                      font-weight: bold;
                                       font-family: sans-serif;
-                                      font-weight: 600;
-                                      margin-right: 15px
                                     }
 
                                     @media all and (max-width:1000px){
-                                      .box6{
-                                        width: 125px;
-                                        height: 75px;
-                                        background-color: white;
+                                      .paragraph4{
                                         position: absolute;
-                                        padding: 1px 1px 1px;
-                                        left: 10px;
-                                        top: 490px;
+                                        left: 410px;
+                                        top: 410px;
+                                        font-size: 10px;
+                                        font-family: sans-serif;
+                                        font-weight: 600;
+                                        margin-right: 15px
                                       }
 
                                       @media all and (max-width:1000px){
-                                        .price5{
+                                        .box6{
+                                          width: 125px;
+                                          height: 75px;
+                                          background-color: white;
                                           position: absolute;
-                                          right: 420px;
-                                          top: 495px;
-                                          margin-right: 10px;
-                                          font-size: 20px;
-                                          font-weight: bold;
-                                          font-family: sans-serif;
+                                          padding: 1px 1px 1px;
+                                          left: 10px;
+                                          top: 490px;
                                         }
 
                                         @media all and (max-width:1000px){
-                                          .paragraph5{
+                                          .price5{
                                             position: absolute;
-                                            right: 440px;
-                                            top: 515px;
-                                            font-size: 10px;
-                                            font-family: sans-serif;
-                                            font-weight: 600;
+                                            right: 420px;
+                                            top: 495px;
                                             margin-right: 10px;
+                                            font-size: 20px;
+                                            font-weight: bold;
+                                            font-family: sans-serif;
                                           }
 
                                           @media all and (max-width:1000px){
-                                            .box7{
-                                              width: 125px;
-                                              height: 75px;
-                                              background-color: white;
+                                            .paragraph5{
                                               position: absolute;
-                                              padding: 1px 1px 1px;
-                                              left: 145px;
-                                              top: 490px;
+                                              right: 440px;
+                                              top: 515px;
+                                              font-size: 10px;
+                                              font-family: sans-serif;
+                                              font-weight: 600;
+                                              margin-right: 10px;
                                             }
 
                                             @media all and (max-width:1000px){
-                                              .price6{
-                                                font-size: 20px;
-                                                font-weight: bold;
-                                                font-family: sans-serif;
+                                              .box7{
+                                                width: 125px;
+                                                height: 75px;
+                                                background-color: white;
                                                 position: absolute;
-                                                right: 615px;
-                                                top: 495px;
-                                                margin-right: 10px;
+                                                padding: 1px 1px 1px;
+                                                left: 145px;
+                                                top: 490px;
                                               }
 
                                               @media all and (max-width:1000px){
-                                                .paragraph6{
-                                                  position: absolute;
-                                                  right:300px;
-                                                  top: 515px;
-                                                  font-size: 10px;
+                                                .price6{
+                                                  font-size: 20px;
+                                                  font-weight: bold;
                                                   font-family: sans-serif;
-                                                  font-weight: 600;
+                                                  position: absolute;
+                                                  right: 615px;
+                                                  top: 495px;
                                                   margin-right: 10px;
                                                 }
 
                                                 @media all and (max-width:1000px){
-                                                  .box8{
-                                                    width: 125px;
-                                                    height: 75px;
-                                                    background-color: white;
+                                                  .paragraph6{
                                                     position: absolute;
-                                                    padding: 1px 1px 1px;
-                                                    left: 280px;
-                                                    top: 490px;
+                                                    right:300px;
+                                                    top: 515px;
+                                                    font-size: 10px;
+                                                    font-family: sans-serif;
+                                                    font-weight: 600;
+                                                    margin-right: 10px;
                                                   }
 
                                                   @media all and (max-width:1000px){
-                                                    .price7{
+                                                    .box8{
+                                                      width: 125px;
+                                                      height: 75px;
+                                                      background-color: white;
                                                       position: absolute;
-                                                      left: 345px;
-                                                      top: 495px;
-                                                      margin-right: 10px;
-                                                      font-size: 20px;
-                                                      font-weight: bold;
-                                                      font-family: sans-serif;
+                                                      padding: 1px 1px 1px;
+                                                      left: 280px;
+                                                      top: 490px;
                                                     }
 
                                                     @media all and (max-width:1000px){
-                                                      .paragraph7{
+                                                      .price7{
                                                         position: absolute;
-                                                        right: 180px;
-                                                        top: 515px;
-                                                        font-size: 10px;
+                                                        left: 345px;
+                                                        top: 495px;
+                                                        margin-right: 10px;
+                                                        font-size: 20px;
+                                                        font-weight: bold;
                                                         font-family: sans-serif;
-                                                        font-weight: 600;
-                                                        margin-left: 15px;
                                                       }
 
                                                       @media all and (max-width:1000px){
-                                                        .box9{
-                                                          width: 125px;
-                                                          height: 75px;
-                                                          background-color: white;
+                                                        .paragraph7{
                                                           position: absolute;
-                                                          padding: 1px 1px 1px;
-                                                          left: 420px;
-                                                          top: 490px;
+                                                          right: 180px;
+                                                          top: 515px;
+                                                          font-size: 10px;
+                                                          font-family: sans-serif;
+                                                          font-weight: 600;
+                                                          margin-left: 15px;
                                                         }
 
                                                         @media all and (max-width:1000px){
-                                                          .price8{
+                                                          .box9{
+                                                            width: 125px;
+                                                            height: 75px;
+                                                            background-color: white;
                                                             position: absolute;
-                                                            left: 480px;
-                                                            top: 495px;
-                                                            margin-right: 10px;
-                                                            font-size: 20px;
-                                                            font-weight: bold;
-                                                            font-family: sans-serif;
+                                                            padding: 1px 1px 1px;
+                                                            left: 420px;
+                                                            top: 490px;
                                                           }
 
                                                           @media all and (max-width:1000px){
-                                                            .paragraph8{
+                                                            .price8{
                                                               position: absolute;
-                                                              left: 410px;
-                                                              top: 505px;
-                                                              font-size: 10px;
+                                                              left: 480px;
+                                                              top: 495px;
+                                                              margin-right: 10px;
+                                                              font-size: 20px;
+                                                              font-weight: bold;
                                                               font-family: sans-serif;
-                                                              font-weight: 600;
-                                                              margin-left: 15px;
                                                             }
 
                                                             @media all and (max-width:1000px){
-                                                              .headers{
-                                                                color: black;
+                                                              .paragraph8{
                                                                 position: absolute;
-                                                                top: 610px;
-                                                                left: 5px;
-                                                                font-weight: bold;
+                                                                left: 410px;
+                                                                top: 505px;
+                                                                font-size: 10px;
                                                                 font-family: sans-serif;
-                                                                font-size: 30px;
+                                                                font-weight: 600;
+                                                                margin-left: 15px;
                                                               }
 
                                                               @media all and (max-width:1000px){
-                                                                .body1{
+                                                                .headers{
                                                                   color: black;
                                                                   position: absolute;
-                                                                  top: 635px;
+                                                                  top: 610px;
                                                                   left: 5px;
-                                                                  font-weight: normal;
+                                                                  font-weight: bold;
                                                                   font-family: sans-serif;
-                                                                  font-size: 10px;
+                                                                  font-size: 30px;
                                                                 }
 
                                                                 @media all and (max-width:1000px){
-                                                                  .body2{
+                                                                  .body1{
                                                                     color: black;
-                                                                    position: relative;
-                                                                    top: 165px;
-                                                                    left: 1px;
+                                                                    position: absolute;
+                                                                    top: 635px;
+                                                                    left: 5px;
                                                                     font-weight: normal;
                                                                     font-family: sans-serif;
                                                                     font-size: 10px;
                                                                   }
+
                                                                   @media all and (max-width:1000px){
-                                                                    .body3{
+                                                                    .body2{
                                                                       color: black;
                                                                       position: relative;
-                                                                      top: 175px;
+                                                                      top: 165px;
                                                                       left: 1px;
                                                                       font-weight: normal;
                                                                       font-family: sans-serif;
                                                                       font-size: 10px;
                                                                     }
                                                                     @media all and (max-width:1000px){
-                                                                      .pics{
-                                                                        width: 75px;
-                                                                        height: 75px;
-                                                                        margin: 20px;
-                                                                        position: absolute;
-                                                                        left: 455px;
-                                                                        top: 645px;
+                                                                      .body3{
+                                                                        color: black;
+                                                                        position: relative;
+                                                                        top: 175px;
+                                                                        left: 1px;
+                                                                        font-weight: normal;
+                                                                        font-family: sans-serif;
+                                                                        font-size: 10px;
                                                                       }
-
                                                                       @media all and (max-width:1000px){
-                                                                        .roundedbutton {
-                                                                          border-radius: 5px 5px 5px 5px;
-                                                                          background: black;
-                                                                          padding: 5px;
-                                                                          width: 125px;
-                                                                          height: 25px;
-                                                                          position: relative;
-                                                                          left: 300px;
-                                                                          top: 185px;
+                                                                        .pics{
+                                                                          width: 75px;
+                                                                          height: 75px;
+                                                                          margin: 20px;
+                                                                          position: absolute;
+                                                                          left: 455px;
+                                                                          top: 645px;
                                                                         }
 
                                                                         @media all and (max-width:1000px){
-                                                                          .learn {
-                                                                            color: white;
-                                                                            position: absolute;
-                                                                            top: 955px;
-                                                                            font-weight: bold;
-                                                                            font-family: sans-serif;
-                                                                            font-size: 15px;
-                                                                            left: 335px;
+                                                                          .learnmorebutton {
+                                                                            border-radius: 5px 5px 5px 5px;
+                                                                            background: black;
+                                                                            padding: 5px;
+                                                                            width: 125px;
+                                                                            height: 25px;
+                                                                            position: relative;
+                                                                            left: 300px;
+                                                                            top: 185px;
                                                                           }
 
-
                                                                           @media all and (max-width:1000px){
-                                                                            .box10 {
-                                                                              width: 540%;
-                                                                              height: 500px;
-                                                                              background-color: grey;
-                                                                              position: relative;
-                                                                              top: 195px;
-                                                                              padding: 5px 5px 5px;
-                                                                              right: 10px;
+                                                                            .learn {
+                                                                              color: white;
+                                                                              position: absolute;
+                                                                              top: 955px;
+                                                                              font-weight: bold;
+                                                                              font-family: sans-serif;
+                                                                              font-size: 15px;
+                                                                              left: 335px;
                                                                             }
 
+
                                                                             @media all and (max-width:1000px){
-                                                                              .paragraph9 {
-                                                                                color: white;
-                                                                                position: absolute;
-                                                                                top: 1010px;
-                                                                                left: 5px;
-                                                                                font-weight: bold;
-                                                                                font-family: sans-serif;
-                                                                                font-size: 20px;
+                                                                              .boxinfo {
+                                                                                width: 100%;
+                                                                                height: 500px;
+                                                                                background-color: grey;
+                                                                                position: relative;
+                                                                                top: 195px;
+                                                                                padding: 5px 5px 5px;
+                                                                                right: 10px;
                                                                               }
 
                                                                               @media all and (max-width:1000px){
-                                                                                .body4 {
-                                                                                  color: white;
+                                                                                .box10 {
+                                                                                  width: 540%;
+                                                                                  height: 560px;
+                                                                                  background-color: lightgray;
                                                                                   position: absolute;
+                                                                                  top: 345px;
+                                                                                  padding: 5px 5px 5px;
+                                                                                  right: 155px;
+                                                                              }
+
+                                                                              @media all and (max-width:1000px){
+                                                                                .paragraph9{
+                                                                                  color: white;
+                                                                                  position: relative;
+                                                                                  bottom: 1415px;
+                                                                                  font-size: 20px;
+                                                                                  right: 725px;
+                                                                                  font-weight: bold;
+                                                                              }
+
+                                                                              @media all and (max-width:1000px){
+                                                                                .body4{
+                                                                                  color: black;
+                                                                                  position: relative;
                                                                                   font-weight: normal;
                                                                                   font-family: sans-serif;
-                                                                                  font-size: 10px;
-                                                                                  top: 1025px;
-                                                                                  left: 5px;
+                                                                                  font-size: 15px;
+                                                                                  bottom: 1415px;
+                                                                                  right: 725px;
                                                                                 }
 
-
-                                                                                @media all and (max-width:1000px){
-                                                                                  .input1 {
-                                                                                    width: 120px;
-                                                                                    height: 20px;
-                                                                                    background-color: white;
-                                                                                    position: absolute;
-                                                                                    border-color: white;
-                                                                                    left: 1px;
-                                                                                    border-style: solid;
-                                                                                    top: 1135px;
-                                                                                  }
-
                                                                                   @media all and (max-width:1000px){
-                                                                                    .input2 {
-                                                                                      width: 120px;
-                                                                                      height: 20px;
-                                                                                      background-color: white;
-                                                                                      position: absolute;
-                                                                                      top: 1135px;
-                                                                                      border-color: white;
-                                                                                      left: 135px;
-                                                                                      border-style: solid;
+                                                                                    form{
+                                                                                      position: relative;
+                                                                                      bottom: 1425px;
+                                                                                      right: 725px
                                                                                     }
 
-                                                                                    @media all and (max-width:1000px){
-                                                                                      .roundedbutton2 {
-                                                                                        border-radius: 5px 5px 5px 5px;
-                                                                                        background: black;
-                                                                                        padding: 5px;
-                                                                                        width: 100px;
-                                                                                        height: 20px;
-                                                                                        position: absolute;
-                                                                                        left: 275px;
-                                                                                        top: 1132px;
-                                                                                      }
-
                                                                                       @media all and (max-width:1000px){
-                                                                                        .headies {
-                                                                                          color: white;
+                                                                                        .button {
+                                                                                          border-radius: 5px 5px 5px 5px;
+                                                                                          background: black;
+                                                                                          padding: 5px;
+                                                                                          width: 100px;
+                                                                                          height: 20px;
                                                                                           position: absolute;
-                                                                                          top: 1137px;
-                                                                                          font-weight: bold;
-                                                                                          font-family: sans-serif;
-                                                                                          font-size: 15px;
-                                                                                          left: 310px;
+                                                                                          left: 275px;
+                                                                                          top: 1132px;
                                                                                         }
 
-                                                                                        @media all and (max-width:1000px){
-                                                                                          .linkes {
-                                                                                            color: white;
-                                                                                            position: absolute;
-                                                                                            top: 1175px;
-                                                                                            font-weight: bold;
-                                                                                            font-family: sans-serif;
-                                                                                            font-size: 15px;
-                                                                                            left: 1px;
-                                                                                            text-decoration: underline;
-                                                                                          }
+
 
                                                                                           @media all and (max-width:1000px){
-                                                                                            .homes {
-                                                                                              color: white;
+                                                                                            .linkes {
+                                                                                              color: green;
                                                                                               position: absolute;
-                                                                                              top: 1195px;
+                                                                                              top: 735px;
                                                                                               font-weight: bold;
                                                                                               font-family: sans-serif;
-                                                                                              font-size: 10px;
+                                                                                              font-size: 15px;
+                                                                                              text-decoration: underline;
                                                                                               left: 1px;
                                                                                             }
 
                                                                                             @media all and (max-width:1000px){
-                                                                                              .contacts {
+                                                                                              .homes {
                                                                                                 color: white;
                                                                                                 position: absolute;
-                                                                                                top: 1210px;
+                                                                                                top: 1195px;
                                                                                                 font-weight: bold;
                                                                                                 font-family: sans-serif;
                                                                                                 font-size: 10px;
@@ -1299,10 +1229,10 @@ header{
                                                                                               }
 
                                                                                               @media all and (max-width:1000px){
-                                                                                                .beverage {
+                                                                                                .contacts {
                                                                                                   color: white;
                                                                                                   position: absolute;
-                                                                                                  top: 1225px;
+                                                                                                  top: 1210px;
                                                                                                   font-weight: bold;
                                                                                                   font-family: sans-serif;
                                                                                                   font-size: 10px;
@@ -1310,10 +1240,10 @@ header{
                                                                                                 }
 
                                                                                                 @media all and (max-width:1000px){
-                                                                                                  .special {
+                                                                                                  .beverage {
                                                                                                     color: white;
                                                                                                     position: absolute;
-                                                                                                    top: 1240px;
+                                                                                                    top: 1225px;
                                                                                                     font-weight: bold;
                                                                                                     font-family: sans-serif;
                                                                                                     font-size: 10px;
@@ -1321,10 +1251,10 @@ header{
                                                                                                   }
 
                                                                                                   @media all and (max-width:1000px){
-                                                                                                    .finds {
+                                                                                                    .special {
                                                                                                       color: white;
                                                                                                       position: absolute;
-                                                                                                      top: 1255px;
+                                                                                                      top: 1240px;
                                                                                                       font-weight: bold;
                                                                                                       font-family: sans-serif;
                                                                                                       font-size: 10px;
@@ -1332,10 +1262,10 @@ header{
                                                                                                     }
 
                                                                                                     @media all and (max-width:1000px){
-                                                                                                      .about{
+                                                                                                      .finds {
                                                                                                         color: white;
                                                                                                         position: absolute;
-                                                                                                        top: 1270px;
+                                                                                                        top: 1255px;
                                                                                                         font-weight: bold;
                                                                                                         font-family: sans-serif;
                                                                                                         font-size: 10px;
@@ -1343,244 +1273,190 @@ header{
                                                                                                       }
 
                                                                                                       @media all and (max-width:1000px){
-                                                                                                        .supports {
+                                                                                                        .about{
                                                                                                           color: white;
                                                                                                           position: absolute;
-                                                                                                          top: 1175px;
+                                                                                                          top: 1270px;
                                                                                                           font-weight: bold;
                                                                                                           font-family: sans-serif;
-                                                                                                          font-size: 15px;
-                                                                                                          left: 75px;
-                                                                                                          text-decoration: underline;
+                                                                                                          font-size: 10px;
+                                                                                                          left: 1px;
                                                                                                         }
 
                                                                                                         @media all and (max-width:1000px){
-                                                                                                          .brewarle {
+                                                                                                          .supports {
                                                                                                             color: white;
                                                                                                             position: absolute;
-                                                                                                            top: 1195px;
+                                                                                                            top: 1495px;
                                                                                                             font-weight: bold;
                                                                                                             font-family: sans-serif;
-                                                                                                            font-size: 10px;
-                                                                                                            left: 75px;
+                                                                                                            font-size: 15px;
+                                                                                                            left: 310px;
+                                                                                                            text-decoration: underline;
                                                                                                           }
+                                                                                                                                                                                                                  }
 
                                                                                                           @media all and (max-width:1000px){
-                                                                                                            .affilate {
+                                                                                                            .brewarle {
                                                                                                               color: white;
                                                                                                               position: absolute;
-                                                                                                              top: 1210px;
+                                                                                                              top: 1525px;
                                                                                                               font-weight: bold;
                                                                                                               font-family: sans-serif;
                                                                                                               font-size: 10px;
-                                                                                                              left: 75px;
+                                                                                                              left: 310px;
                                                                                                             }
 
-                                                                                                            @media all and (max-width:1000px){
-                                                                                                              .request {
+                                                                                                              @media all and (max-width:1000px){
+                                                                                                              .affilate{
                                                                                                                 color: white;
                                                                                                                 position: absolute;
-                                                                                                                top: 1225px;
+                                                                                                                top: 1545px;
                                                                                                                 font-weight: bold;
                                                                                                                 font-family: sans-serif;
                                                                                                                 font-size: 10px;
-                                                                                                                left: 75px;
+                                                                                                                left: 310px;
                                                                                                               }
 
                                                                                                               @media all and (max-width:1000px){
-                                                                                                                .reward {
+                                                                                                                .request {
                                                                                                                   color: white;
                                                                                                                   position: absolute;
-                                                                                                                  top: 1240px;
+                                                                                                                  top: 1565px;
                                                                                                                   font-weight: bold;
                                                                                                                   font-family: sans-serif;
                                                                                                                   font-size: 10px;
-                                                                                                                  left: 75px;
+                                                                                                                  left: 310px;
                                                                                                                 }
 
                                                                                                                 @media all and (max-width:1000px){
-                                                                                                                  .connects {
+                                                                                                                  .reward {
                                                                                                                     color: white;
                                                                                                                     position: absolute;
-                                                                                                                    top: 1175px;
+                                                                                                                    top: 1585px;
                                                                                                                     font-weight: bold;
                                                                                                                     font-family: sans-serif;
-                                                                                                                    font-size: 15px;
-                                                                                                                    left: 295px;
-                                                                                                                    text-decoration: underline;
+                                                                                                                    font-size: 10px;
+                                                                                                                    left: 310px;
                                                                                                                   }
 
                                                                                                                   @media all and (max-width:1000px){
-                                                                                                                    .box11 {
-                                                                                                                      width: 15px;
-                                                                                                                      height: 10px;
-                                                                                                                      background-color: white;
+                                                                                                                    .connects {
+                                                                                                                      color: white;
                                                                                                                       position: absolute;
-                                                                                                                      top: 1195px;
-                                                                                                                      padding: 5px 5px 5px;
-                                                                                                                      left: 295px;
+                                                                                                                      top: 1495px;
+                                                                                                                      font-weight: bold;
+                                                                                                                      font-family: sans-serif;
+                                                                                                                      font-size: 15px;
+                                                                                                                      left: 430px;
+                                                                                                                      text-decoration: underline;
                                                                                                                     }
 
-                                                                                                                    @media all and (max-width:1000px){
-                                                                                                                      .fb {
-                                                                                                                        width: 20px;
-                                                                                                                        height: 20px;
-                                                                                                                        background-color: green;
-                                                                                                                        position: absolute;
-                                                                                                                        top: 1195px;
-                                                                                                                        padding: 5px 5px 5px;
-                                                                                                                        left: 295px;
-                                                                                                                      }
-
-                                                                                                                      @media all and (max-width:1000px){
-                                                                                                                        .box0 {
-                                                                                                                          width: 15px;
-                                                                                                                          height: 10px;
-                                                                                                                          background-color: white;
+                                                                                                              @media all and (max-width:1000px){
+                                                                                                                        .fb {
+                                                                                                                          width: 20px;
+                                                                                                                          height: 20px;
+                                                                                                                          background-color: green;
                                                                                                                           position: absolute;
-                                                                                                                          top: 1200px;
+                                                                                                                          top: 1520px;
                                                                                                                           padding: 5px 5px 5px;
-                                                                                                                          left: 330px;
+                                                                                                                          left: 430px;
                                                                                                                         }
 
                                                                                                                         @media all and (max-width:1000px){
-                                                                                                                          .twit{
-                                                                                                                            width: 20px;
-                                                                                                                            height: 20px;
-                                                                                                                            background-color: green;
-                                                                                                                            position: absolute;
-                                                                                                                            top: 1195px;
-                                                                                                                            padding: 5px 5px 5px;
-                                                                                                                            left: 330px;
-                                                                                                                          }
-
-                                                                                                                          @media all and (max-width:1000px){
-                                                                                                                            .box13 {
-                                                                                                                              width: 15px;
-                                                                                                                              height: 10px;
-                                                                                                                              background-color: white;
+                                                                                                                            .twit{
+                                                                                                                              width: 20px;
+                                                                                                                              height: 20px;
+                                                                                                                              background-color: green;
                                                                                                                               position: absolute;
-                                                                                                                              top: 1195px;
+                                                                                                                              top: 1520px;
                                                                                                                               padding: 5px 5px 5px;
-                                                                                                                              left: 365px;
+                                                                                                                              left: 465px;
                                                                                                                             }
 
-                                                                                                                            @media all and (max-width:1000px){
-                                                                                                                              .in{
-                                                                                                                                width: 20px;
-                                                                                                                                height: 20px;
-                                                                                                                                background-color: green;
-                                                                                                                                position: absolute;
-                                                                                                                                top: 1195px;
-                                                                                                                                padding: 5px 5px 5px;
-                                                                                                                                left: 365px;
-                                                                                                                              }
-
                                                                                                                               @media all and (max-width:1000px){
-                                                                                                                                .box14 {
-                                                                                                                                  width: 15px;
-                                                                                                                                  height: 10px;
-                                                                                                                                  background-color: white;
+                                                                                                                                .in{
+                                                                                                                                  width: 20px;
+                                                                                                                                  height: 20px;
+                                                                                                                                  background-color: green;
                                                                                                                                   position: absolute;
-                                                                                                                                  top: 1200px;
+                                                                                                                                  top: 1520px;
                                                                                                                                   padding: 5px 5px 5px;
-                                                                                                                                  left: 400px;
+                                                                                                                                  left: 500px;
                                                                                                                                 }
 
                                                                                                                                 @media all and (max-width:1000px){
-                                                                                                                                  .you{
-                                                                                                                                    width: 20px;
-                                                                                                                                    height: 20px;
-                                                                                                                                    background-color: green;
-                                                                                                                                    position: absolute;
-                                                                                                                                    top: 1195px;
-                                                                                                                                    padding: 5px 5px 5px;
-                                                                                                                                    left: 400px;
-                                                                                                                                  }
-
-                                                                                                                                  @media all and (max-width:1000px){
-                                                                                                                                    .box15 {
-                                                                                                                                      width: 15px;
-                                                                                                                                      height: 10px;
-                                                                                                                                      background-color: white;
+                                                                                                                                    .you{
+                                                                                                                                      width: 20px;
+                                                                                                                                      height: 20px;
+                                                                                                                                      background-color: green;
                                                                                                                                       position: absolute;
-                                                                                                                                      top: 1195px;
+                                                                                                                                      top: 1553px;
                                                                                                                                       padding: 5px 5px 5px;
-                                                                                                                                      left: 435px;
-                                                                                                                                    }
+                                                                                                                                      left: 430px
+                                                                                                                                }
 
                                                                                                                                     @media all and (max-width:1000px){
-                                                                                                                                      .pin {
-                                                                                                                                        width: 20px;
-                                                                                                                                        height: 20px;
-                                                                                                                                        background-color: green;
-                                                                                                                                        position: absolute;
-                                                                                                                                        top: 1195px;
-                                                                                                                                        padding: 5px 5px 5px;
-                                                                                                                                        left: 435px;
-                                                                                                                                      }
-
-                                                                                                                                      @media all and (max-width:1000px){
-                                                                                                                                        .box16 {
-                                                                                                                                          width: 15px;
-                                                                                                                                          height: 10px;
-                                                                                                                                          background-color: white;
+                                                                                                                                      .pin{
+                                                                                                                                          width: 20px;
+                                                                                                                                          height: 20px;
+                                                                                                                                          background-color: green;
                                                                                                                                           position: absolute;
-                                                                                                                                          top: 1195px;
+                                                                                                                                          top: 1553px;
                                                                                                                                           padding: 5px 5px 5px;
-                                                                                                                                          left: 470px;
+                                                                                                                                          left: 465px;
                                                                                                                                         }
 
                                                                                                                                         @media all and (max-width:1000px){
-                                                                                                                                          .instagram {
-                                                                                                                                            width: 20px;
-                                                                                                                                            height: 20px;
-                                                                                                                                            background-color: green;
-                                                                                                                                            position: absolute;
-                                                                                                                                            top: 1195px;
-                                                                                                                                            padding: 5px 5px 5px;
-                                                                                                                                            left: 470px;
-                                                                                                                                          }
-
-                                                                                                                                          @media all and (max-width:1000px){
-                                                                                                                                            .box12 {
-                                                                                                                                              width: 540px;
-                                                                                                                                              height: 165px;
-                                                                                                                                              background-color: black;
+                                                                                                                                            .instagram {
+                                                                                                                                              width: 20px;
+                                                                                                                                              height: 20px;
+                                                                                                                                              background-color: green;
                                                                                                                                               position: absolute;
-                                                                                                                                              top: 1328px;
+                                                                                                                                              top: 1553px;
                                                                                                                                               padding: 5px 5px 5px;
-                                                                                                                                              left: 0px;
+                                                                                                                                              left: 501px;
                                                                                                                                             }
-                                                                                                                                            @media all and (max-width:1000px){
-                                                                                                                                              .circles {
-                                                                                                                                              width: 65px;
-                                                                                                                                              height: 65px;
-                                                                                                                                              background-color: black;
-                                                                                                                                              position: absolute;
-                                                                                                                                              top: 1340px;
-                                                                                                                                              padding: 5px 5px 5px;
-                                                                                                                                              left: 245px;
-                                                                                                                                          }
 
-                                                                                                                                              @media all and (max-width:1000px){
-                                                                                                                                                .privacy {
-                                                                                                                                                  color: white;
-                                                                                                                                                  position: absolute;
-                                                                                                                                                  top: 1415px;
-                                                                                                                                                  font-weight: bold;
-                                                                                                                                                  font-family: sans-serif;
-                                                                                                                                                  font-size: 10px;
-                                                                                                                                                  left: 200px;
+                                                                                                                                            @media all and (max-width:1000px){
+                                                                                                                                              .box12 {
+                                                                                                                                                width: 540px;
+                                                                                                                                                height: 165px;
+                                                                                                                                                background-color: black;
+                                                                                                                                                position: absolute;
+                                                                                                                                                top: 2025px;
+                                                                                                                                                padding: 5px 5px 5px;
+                                                                                                                                                left: 10px;
                                                                                                                                               }
+                                                                                                                                              @media all and (max-width:1000px){
+                                                                                                                                                .circles {
+                                                                                                                                                  width: 65px;
+                                                                                                                                                  height: 65px;
+                                                                                                                                                  background-color: black;
+                                                                                                                                                  position: absolute;
+                                                                                                                                                  top: 2025px;
+                                                                                                                                                  padding: 5px 5px 5px;
+                                                                                                                                                  left: 245px;
+                                                                                                                                                }
 
                                                                                                                                                 @media all and (max-width:1000px){
-                                                                                                                                                  .website {
+                                                                                                                                                  .privacy {
                                                                                                                                                     color: white;
                                                                                                                                                     position: absolute;
-                                                                                                                                                    top: 1445px;
+                                                                                                                                                    top: 2100px;
                                                                                                                                                     font-weight: bold;
                                                                                                                                                     font-family: sans-serif;
                                                                                                                                                     font-size: 10px;
-                                                                                                                                                    left: 225px;
-                                                                                                                                                }
+                                                                                                                                                    left: 200px;
+                                                                                                                                                  }
+
+                                                                                                                                                  @media all and (max-width:1000px){
+                                                                                                                                                    .website {
+                                                                                                                                                      color: white;
+                                                                                                                                                      position: absolute;
+                                                                                                                                                      top: 2125px;
+                                                                                                                                                      font-weight: bold;
+                                                                                                                                                      font-family: sans-serif;
+                                                                                                                                                      font-size: 10px;
+                                                                                                                                                      left: 225px;
+                                                                                                                                                    }
